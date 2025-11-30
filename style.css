@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box; /* Padding ve border'ın genişliğe dahil olmasını sağlar */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: dimgray;
+   /* line-height: normal;*/
+}
+header{
+    background-color: bisque;
+    color:floralwhite;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#controls{
+    background-color: white;
+    color:antiquewhite;
+    display: flex; /* kontrol elamnalarını yan yana hizalamak için  ----------------------------*/
+    flex-wrap: wrap; /*kçük ekranlarda alt alta geçmesini sağlanır  ----------------------------------------------*/
+    justify-content: center;
+    border-bottom: 1px solid wheat;
+    padding: 25px;
+}
+#search-input, #category-filter{
+    padding: 15px;
+    border: 1px solid darkturquoise;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width:250px;  /*elemanların minimum genişliğini belirler*/
+}
+#media-list{
+    padding:25px;
+    display:grid;/*grid kullanımı: kartları ızgara şeklinde dizmek için*/
+    /* Varsayılan olarak 3 sütunlu düzen. 
+       minmax ile her sütunun minimum 300px olmasını, geri kalan boşluğun eşit dağıtılmasını sağlarız.*/
+       grid-template-columns: repeat(auto-fit, minmax(300px,1fr));             /*-----------------------------------------*/
+       gap: 30px;    /*kartlar arasındaki boşluk*/
+       max-width: 1200px;    /*içeriği ortalamak için maksimum genişlik*/
+       margin: 20px auto;   /*sayfada ortala*/
+}
+
+
+/* Tek bir film kartı stili*/
+.media-card{
+    background-color: azure;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding:25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;  /*fare üzerine gelince efekt eklemek için*/
+}
+
+.media-card:hover{
+    transform: translateY(-5px);   /*kartın hafifçe yukarı kalkması*/
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.media-card h2{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: midnightblue;
+}
+.media-card p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.media-card button{
+    background-color: darkgrey;
+    color:white;
+    border:none;
+    padding:9px 17px;
+    margin-top: 12px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+.media-card button:hover{
+    background-color: aqua;
+}
+
+footer{
+    text-align: center;
+    padding:15px;
+    background-color: burlywood;
+    color:aliceblue;
+    margin-top: 30px;
+    font-size:0.8em;
+}
+
+#tabs{
+    text-align: center;
+    padding: 10px 15px;
+    background-color: brown;
+    margin-bottom: 15px;
+}
+#tabs button{
+    padding: 15px 25px;
+    margin:0 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: burlywood;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#tabs button:hover{
+    background-color: coral;
+}
+#tabs button.active{
+    background-color: darkgoldenrod;
+    color: white;
+}
+/*detay ve favori butonları*/
+.favorite-btn{
+    background-color: gold;
+    margin-left: 15px;
+}
+.favorite-btn:hover{
+    background-color: orange;
+}
+/*detay alanı stili*/
+#media-detail.hidden{
+    display: none;
+}
+.detail-card{
+    max-width:900px;
+    margin:30px auto;
+    padding: 40px;
+    background-color: white;
+    border:1px solid rosybrown;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.detail-card h2{
+    color:chocolate;
+    border-bottom:2px solid white;
+    padding-bottom:20px;
+    margin-bottom: 30px;
+}

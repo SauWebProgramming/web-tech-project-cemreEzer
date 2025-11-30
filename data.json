@@ -1,0 +1,226 @@
+[
+    {
+        "id":1,
+        "baslik": "Yeşil Yol",
+        "kategori":"Dram",
+        "yil":1999,
+        "konu":"Oldukça iri bir adam olan John Coffey, iki küçük kızı tecavüz ederek öldürmek suçundan idama mahkûm olmuştur.Ürkütücü görünümünün aksine oldukça ince ve karmaşık bir iç dünyası olan John Coffey, bazı doğaüstü güçlere sahiptir. İdam cezası alan mahkûmların bulunduğu hapishanenin infaz odası baş gardiyanı olan Paul Edgecomb'un ona gerçekten suçlu olup olmadığını sorması ile birlikte ikisinin arasında bir diyalog başlar. Bazı ürolojik sorunlardan ötürü hasta olan Paul'un, John Coffey'nin güçlerisayesinde iyileşmesiyle olaylar gelişmeye başlar. Coffey, doğaüstü gücü sayesinde kendi içine çektiği hastalıkları ağzından serbest bırakarak hayatına devam edebilmektedir. Paul'un Coffey hakkındaki düşünceleri, onun bu gücünün farkına varmasıyla tamamen değişmeye başlar. Coffey bu gücü sayesinde mucizeler yaratmaktadır ve Paul, bu mucizenin yaşamaya devam etmesi gerektiğini düşünmektedir.",
+        "puan":8.8,
+        "resimUrl":"" 
+    },
+    {
+        "id":2,
+        "baslik": "The Shawshank Redemption",
+        "kategori":"Dram",
+        "yil":1994,
+        "konu":"Esaretin Bedeli, Andy ve Red isimli iki mahkumun parmaklıklar ardında kurdukları dünyanın hikayesini anlatıyor. Andy Dufresne, genç ve başarılı bir bankerdir. Karısını ve karısının sevgilisini öldürmek suçundan yargılanır ve ömür boyu hapis cezası alır. Shawsank Hapishanesi'nde dayak, işkence, tecavüz, her türlü durum yaşanmaktadır fakat Andy gene de hayata bağlı ve iyimserdir. Bu tutumu etrafındakileri de etkiler. Andy umutlu bakış açısıyla çevresindeki tüm mahkumları, parmaklıklar arkasında bile özgür bir yaşam olabileceğine inandırır. Andy'nin bu çabalarına ortak olacak bir arkadaşı da olacaktır: Red.",
+        "puan":9.5,
+        "resimUrl":""
+    },
+    {"id":3,
+        "baslik": "Forrest Gump",
+        "kategori":"Dram",
+        "yil":1994,
+        "konu":"Forrest Gump, düşük I.Q. sahibi genç bir adamdır. Jenny ile tanıştığında ona aşık olur. Gump aralarında Elvis Presley, Kennedy, Nixon’ın da olduğu tarihsel kişilerle kaza eseri tanışır ve 50’lerden 70’lerin sonuna kadar gelen bir süre zarfında olaylar gelişir. Gump tamamen tesadüf olarak Vietnam savaşına ve Amerikan yakın tarihinin önemli olaylarına şahitlik eder ve hatta rol alır. Ancak bilmeden yaptıklarının ne kadar önemli sonuçları olduğundan da haberi yoktur.",
+        "puan":8.8,
+        "resimUrl":"" 
+    },
+    {"id":4,
+        "baslik": "Léon",
+        "kategori":"Dram",
+        "yil":1994,
+        "konu":"Yapımda ailesi dağılmış, mutsuz bir hayat süren 12 yaşındaki Mathilda’nın hikayesi konu alınır. Sadece küçük erkek kardeşini seven Mathilda, ailesinin diğer üyelerini sevmemektedir. Babasının uyuşturucu ticaretine başlamasının ardından mafyanın gelip tüm ailesini öldürmesi sonucu Mathilda eve girmeyerek az da olsa konuştuğu Leon’un evine sığınır. Soğukkanlı bir katil olan Leon ise Mathilda’nın yanında kalmasına izin verse de, bir çocukla aynı evde kalma fikrinden çok da mutlu değildir. Ancak zamanla Mathilda’yı sevmeye başlayan ve ona kol kanat geren Leon filmi Mathilda’nın ailesinde onun ailesine bulamadığı mutluluğu ve sıcaklığı bulmasını izleyiciye aktarır.",
+        "puan":8.5,
+        "resimUrl":"" 
+    },
+    {"id":5,
+        "baslik": "Titanik",
+        "kategori":"Dram",
+        "yil":1997,
+        "konu":"Teknolojinin son sürat ilerlediği bir dönemde, insanlar üstesinden gelemeyecekleri hiç bir sorun olamayacağına inanmaya başlamışlardır. 'Titanic' adlı dev transatlantik ise, insanlığın doğaya karşı gövde gösterisi gibidir. Bu 'Düşler Gemisi' nin yolcuları arasında Avrupa`da birkaç yıl geçirdikten sonra Amerika'ya dönmekte olan, Jack adlı genç bir ressam ile nişanlısı ve annesiyle Philadelphia`ya giden Rose adlı genç bir kız da vardır. İki genç, şans eseri tanışacak, aralarındaki sınıf farkına aldırmaksızın birbirlerine yakınlaşacaktır. Bu arada doğa insanoğlunun günden güne artan kibirine bir nokta koymayı planlamaktadır. Yola çıkılmasından dört buçuk gün sonra, 10 Nisan 1912'de, Titanic iki saat kırk dakika süren ve sulara gömülmesiyle son bulan, hazin olayların başlamasına neden olacak buz dağına çarpacaktır.",
+        "puan":7.7,
+        "resimUrl":"" 
+    },
+    {
+    "id": 6,
+    "baslik": "Inception",
+    "kategori": "Bilim Kurgu",
+    "yil": 2010,
+    "ozet": "Dom Cobb çok yetenekli bir hırsızdır. Uzmanlık alanı, zihnin en savunmasız olduğu rüya görme anında, bilinçaltının derinliklerindeki değerli sırları çekip çıkarmak ve onları çalmaktır. Cobb’un bu ender mahareti, onu kurumsal casusluğun tehlikeli yeni dünyasında aranan bir oyuncu yapmıştır. Ancak, aynı zamanda bu durum onu uluslararası bir kaçak yapmış ve sevdiği her şeyi kaybetmesine sebep olmuştur. Cobb’a içinde bulunduğu durumdan kurtulmasını sağlayacak bir fırsat sunulur. Ona hayatını geri verebilecek son bir iş; tabi eğer imkansız başlangıçı tamamlayabilirse...",
+    "puan": 8.9,
+    "resimUrl": "images/film-6.jpg"
+  },
+  {
+    "id": 7,
+    "baslik": "The Prestige",
+    "kategori": "Bilim Kurgu",
+    "yil": 2006,
+    "ozet": "Prestij, birbirini alt etmeye çalışan iki sihirbazın hikayesini anlatıyor. 19.yy sonlarında Londra’da Robert Angier, sevgili eşi Julia McCullough ve Alfred Borden hem arkadaştırlar hem de bir sihirbazın asistanlarıdırlar. Bir gösteri esnasında Julia ölünce Robert, onun ölümünden Alfred’i suçlar ve birbirlerine düşman olurlar. Zaman içinde ikisi de hem ünlü olurlar hem de rakip sihirbazlara dönüşerek birbirlerinin sahne üstünde performansını sabote etmeye kalkışırlar. Alfred başarılı bir hile yapınca Robert, rakibinin sırrını çözmek konusunu takıntı halinde getirir ve trajik olaylar birbirini kovalar.",
+    "puan": 8.8,
+    "resimUrl": "images/film-7.jpg"
+  },
+  {
+    "id": 8,
+    "baslik": "Matrix",
+    "kategori": "Bilim Kurgu",
+    "yil": 1999,
+    "ozet": "Bir yaşanan gerçek vardır, bir de yaşananın ötesinde olan gerçeklik... Biri rüya, diğeri ise Matrix! Neo,son derece tehlikeli bir adam olan Morpheus’un gerçeği bildiğine inanmaktadır. Bir gece Neo, kendisini başka bir dünyaya götürebilecek güzel yabancı Trinity ile tanışır. Bu kızın götüreceği dünyada, Neo Morpheus’u bulacak ve Matrix hakkında bir şeyler öğrenecektir. Neo, Tam olarak kavrayamadığı şeylerin yaşamını kontrol ettiğini biliyor.. Nedir bu Matrix?",
+    "puan": 8.8,
+    "resimUrl": "images/film-8.jpg"
+  },
+  {
+    "id": 9,
+    "baslik": "The Avengers",
+    "kategori": "Bilim Kurgu",
+    "yil": 2012,
+    "ozet": "SHIELD adıyla tanınan uluslararası barış örgütünün başındaki isim Nick Fury, tüm dünyanın güvenliğine karşı büyük bir tehdit oluşturan düşmanla karşı karşıya kalır. Fury, dünyayı yaklaşan bu felaketten kurtarmak için en cesur ve en 'süper' kahramanlardan oluşan bir ekip kurmak zorundadır...",
+    "puan": 8.2,
+    "resimUrl": "images/film-9.jpg"
+  },
+  {
+    "id": 10,
+    "baslik": "Interstellar",
+    "kategori": "Bilim Kurgu",
+    "yil": 2014,
+    "ozet": "Yıldızlararası'nda, teknik bilgisi ve becerisi yüksek olan Cooper, geniş mısır tarlalarında çiftçilik yaparak geçinmektedir; amacı iki çocuğuna güvenli bir hayat sunmaktır. Onlarla yaşayan Büyükbaba Donald çocuklara göz kulak olurken, henüz 10 yaşındaki kızı Murph şaşırtıcı bir zekaya sahiptir. Geçmişte bıraktığı biliminsanı kariyerini özleyen Cooper'un karşısına bir gün beklenmedik bir teklif çıkar ve ailesinin, dahası insanlığın güvenliği için zorlu bir karar alması gerekir...",
+    "puan": 8.9,
+    "resimUrl": "images/film-10.jpg"
+  },
+  {
+    "id": 11,
+    "baslik": "Saving Private Ryan",
+    "kategori": "Tarih",
+    "yil": 2004,
+    "ozet": "Er Ryan’ı Kurtarmak'ta, dört çocuk annesi bir kadı İkinci Dünya Savaşı’nda kaybettiği üç oğlunun ardından fazlasıyla yaralanmıştır. Şimdi tek dileği hayatta kalan tek oğlunun savaştan sağ salim dönmesidir. Yakarışları karşılık bulur ve Başkan tarafından verilen bir emirle James Ryan’ın ne pahasına olursa olsun bu savaştan sağ çıkması sağlanacaktır. Normandiya çıkarmasının yapıldığı gün, sekiz kişilik bir asker birliği farklı bir göreve, Ryan’ı kurtarma görevine atanır. Ancak yüzbaşı John Miller tarafından yönetilen bu birim, can pazarının yaşandığı bu zorlu ortamda hakikatli bir yaşam mücadelesine atılacak; tek bir adamı kurtarmak için sekiz kişinin hayatının tehlikeye atılmasının meşruluğunu sorgulayacaktır.",
+    "puan": 8.2,
+    "resimUrl": "images/film-11.jpg"
+  },
+  {
+    "id": 12,
+    "baslik": "Schindler's List",
+    "kategori": "Tarih",
+    "yil": 1993,
+    "ozet": "Schindler’in Listesi, Oskar Schindler adlı bir Alman işadamının 2. Dünya Savaşı zamanında Polonya’da kurduğu fabrikada Yahudi işçileri çalıştırması ve bu sayede 1100 Yahudi’nin hayatını kurtarmasını konu alıyor.",
+    "puan": 8.9,
+    "resimUrl": "images/film-12.jpg"
+  },
+  {
+    "id": 13,
+    "baslik": "Ayla",
+    "kategori": "Tarih",
+    "yil": 2017,
+    "ozet": "Film, Kore Savaşı'nda yaşanan gerçek ve çok dramatik bir hikayeyi beyazperdeye taşıyacak. 1950 yılında savaşta yer alan Süleyman Astsubay savaş meydanında küçük bir kız bulur. 5 yaşındaki bu Koreli kız yetimdir ve nereye gideceğini bilmemektedir. Astsubay kızı yanına alır ve Ayla ismini verir. Birliğin neşesi haline gelen Ayla ile astsubay kısa sürede baba-kız gibi olurlar. Ancak 15 ay sonunda birliğin Türkiye'ye geri dönme kararı çıkar. Ayla'yı bırakıp dönmek istemeyen Süleyman Astsubay her yolu denese de Kore kanunlarını aşamaz. Küçük kızı geride bırakmak zorunda kalan Süleyman ve yetimlere uygulanan sisteme dahil olarak yetimhaneye verilecek olan Ayla son vedalarında tekrar bir araya gelmeye söz verirler. Yıllar ikiliyi yeniden buluşturacak mıdır?...",
+    "puan": 8.5,
+    "resimUrl": "images/film-13.jpg"
+  },
+  {
+    "id": 14,
+    "baslik": "The Boy in the Striped Pyjamas",
+    "kategori": "Tarih",
+    "yil": 2008,
+    "ozet": "2. Dünya Savaşı’nın kara günlerinde, arkadaş olmaya çalışan iki çocuğun hikayesi. 8 yaşındaki Bruno ailesiyle Berlin'den ayrılır ve Polonya'da yaşamaya başlar. Babasının işi için taşındıkları bu yerde bir de arkadaş edinir. Arkadaşı tellerin arkasında kalan bir Yahudi'dir. Bruno'nun yaşadığı yer, 1.5 milyon Yahudi'nin öldürüldüğü Auschwitz toplama ve yoketme kampının bitişiğindedir. Oğlunun tellerin ardında yaşananlarla ilgili gerçeği öğreniceğinden kaygılanan Bruno'nun annesiyse oğlunu bu 'arkadaş'lıktan korumaya çalışır.",
+    "puan": 8.4,
+    "resimUrl": "images/film-14.jpg"
+  },
+  {
+    "id": 15,
+    "baslik": "The Thin Red Line",
+    "kategori": "Tarih",
+    "yil": 1998,
+    "ozet": "İkinci Dünya Savaşı sırasında Guadalcanal da savaşan bir grup Amerikalı erkeğin değişmelerinin, acı çekmelerinin ve kendileriyle ilgili önemli keşifler yapmalarının öyküsü. Film Pasifik adalarında Japonların ilerlemelerini durduracak olan, savaşta anahtar görevi görmüş çatışmalardan birini arkaplanına almış. Ama öykü, bunun ötesinde, hayatta kalmak için savaşan, korkunç stres altındaki insanların aralarında gelişen güçlü bağların arasında dolaşıyor.",
+    "puan": 8.2,
+    "resimUrl": "images/film-15.jpg"
+  },
+  {
+    "id": 16,
+    "baslik": "The Sixth Sense",
+    "kategori": "Gerilim",
+    "yil": 1999,
+    "ozet": "Altıncı His'te, uzun yıllardır mesleğinden uzakta yaşayan psikiyatr Crowe geçmişinde yaşadığı korkunç bir tecrübenin canlı anılarını halen daha taşımaktadır. Crowe yıllar önce ağır bir saldırıyı uğramış ve ölüm tehlikesi atlatmıştır. Şimdilerde küçük bir çocuğun, Cole'un doktorluğunu yapan bu adam zamanla Cole ile yakınlaşacak, küçük çocuğun daha önce kimseyle paylaşamadığı bir sırra tanık olacaktır. Küçük çocuğun sahip olduğu bu sır hem kendisinin hem de doktor Crowe'un hayatında fırtınalar koparacak bir kırılma noktasını doğuracaktır.",
+    "puan": 8.6,
+    "resimUrl": "images/film-16.jpg"
+  },
+  {
+    "id": 17,
+    "baslik": "The Illusionist",
+    "kategori": "Gerilim",
+    "yil": 2006,
+    "ozet": "Film farklı dünyalardan gelen insanların arasında doğan bir aşkın, kolaylıkla onaylanmaması ile başlıyor. Sophia aristokrat bir ailenin kızı olarak, marangoz bir ailenin oğlu olan Eisenheim’a aşık olur. Üstelik aşkı karşılıklıdır. Bu ikili, birbirlerine hissettiklerinden ötürü tepki alırlar. Öyle ki aşkına yasak bile getirilen Eisenheim, ülkeyi terk eder. Dünyayı dolaşacaktır. Aradan on beş yıl geçtikten sonra ülkesine bir illüzyonist olarak geri döner. Bu sırada Sophia, nişanlanmak üzeredir. Onca zaman sonra yeniden karşı karşıya gelen aşıkların hisleri yeniden alevlenir. Bu durumu hisseden Sophia’nın nişanlısı Prens Leopold ile Eisenheim hesapta olmayan bir mücadeleye girmek zorunda kalacaklardır.",
+    "puan": 8.3,
+    "resimUrl": "images/film-17.jpg"
+  },
+  {
+    "id": 18,
+    "baslik": "Shutter Island",
+    "kategori": "Gerilim",
+    "yil": 2010,
+    "ozet": "Zindan Adası, Martin Scorsese'nin bir çok filmi gibi yine bir başyapıt statüsünde. Filmde, Teddy Daniels ve Chuck Aule isimli iki polis memurunun, Rachel Solando adlı bir akıl hastasının ortadan kaybolması üzerine tehlikeli akıl hastalarının tedavi gördüğü Shutter Adası isimli bölgede konuşlanan Ashecliffe Hastanesi'ne soruşturma yapmak için gitmesi ve sonradan gelişen esrarengiz olaylar aktarılıyor. Burada karşılaştıkları isyan tablosu ve çığrından çıkan işler bu davayı gittikçe zora sokacak, zamanla rüya ve gerçek arasındaki sınırlar zorlanacaktır.",
+    "puan": 8.5,
+    "resimUrl": "images/film-18.jpg"
+  },
+  {
+    "id": 19,
+    "baslik": "Fight Club",
+    "kategori": "Gerilim",
+    "yil": 1999,
+    "ozet": "Dövüş Kulübünün birinci kuralı: Asla Dövüş Kulübü hakkında konuşma... Dövüş Kulübünün ikinci kuralı: Asla ve asla dövüş kulübü hakkında konuşma... Jack, hayatın sıradanlığına kapılmış bir sigorta memurudur. Uzun bir süredir 'insomnia' yani uykusuzluk hastalığından şikayetçidir. Kendi psikolojik sıkıntılarından kurtulabilmek adına grup terapilerine katılmaktadır. Terapiler esnasında Marla adında bir kızla tanışır. Bir süre sonra da hayatını değiştirecek olan Tyler Durden ile... Durden, Jack'in ulaşmak istediği tüm hedeflere ulaşmış olan bir adamdır ve Jack'i asla hakkında konuşulmaması gereken bir organizasyon olan 'Dövüş Kulübü' ile tanıştıracaktır.",
+    "puan": 8.8,
+    "resimUrl": "images/film-19.jpg"
+  },
+  {
+    "id": 20,
+    "baslik": "I Am Legend",
+    "kategori": "Gerilim",
+    "yil": 2007,
+    "ozet": "Robert Neville, korkunç bir virüsün her yere yayılmasına engel olamamış bir bilim adamıdır. New York’ta hayatta kalabilenlerdendir. Daha doğrusu o, tüm üstün deneyim ve bilgilerine rağmen bu virüsün önünü kesememiş ve ancak kendi bedeni söz konusu virüse bağışıklık kazanmıştır. Bu noktada olan aslında tek kişidir. Üç yıl süre ile her türlü imkanını kullanarak kendisi gibi hayatta kalabilmiş başkaları varsa onlara ulaşmaya çalışır ve aslında yalnız değildir. Neville’in direnme gücünü sağlayan tek şey misyonunu yerine getirmek tutkusudur. Kendi kanını kullanarak virüsün etkilerini terse çevirmesi gerekmektedir. Zaman hızla tükenmektedir.",
+    "puan": 7.2,
+    "resimUrl": "images/film-20.jpg"
+  },
+  {
+    "id": 21,
+    "baslik": "Up",
+    "kategori": "Animasyon",
+    "yil": 2009,
+    "ozet": "Rastlantı eseri yolları kesişen iki çocuk, yıllarca sürecek tatlı ve dokunaklı bir hikayenin başkahramanlarıdır. Maceracı Ellie’nin tek hayali dünyayı gezebilmektir. Carl ise sevdiğinden kalan tek şeyi, bu çocuksu hayali gerçekleştirmeye koyulur. Balonlarla evini uçurarak yola çıkar.",
+    "puan": 8.6,
+    "resimUrl": "images/film-21.jpg"
+  },
+  {
+    "id": 22,
+    "baslik": "Ratatouille",
+    "kategori": "Animasyon",
+    "yil": 2007,
+    "ozet": "Şişman fare Remy, yemeğe olan düşkünlüğü nedeniyle tek bir hayale sahiptir: Aşçı olabilmek! Bu idealini gerçekleştirmek için Paris'in yolunu tutar ve şehrin en iyi restoranının kanalizasyonunda bulur kendisini. Restoranın yeni çöpçüsüyle ilginç bir anlaşma yapar ve büyülü mutfağa ulaşır.",
+    "puan": 8.4,
+    "resimUrl": "images/film-22.jpg"
+  },
+  {
+    "id": 23,
+    "baslik": "Cars",
+    "kategori": "Animasyon",
+    "yil": 2006,
+    "ozet": "Piston Kupası için yarışan meşhur yarış arabası Lightning McQueen, kaza ile Radiator Springs adındaki küçük bir kasabanın yollarına zarar verir. Üstelik kendisinin de tamir olması için çok çalışması gerekmektedir. Bu küçük kasabada kaldığı sürece dostluklar edinir ve değerleri değişmeye başlar.",
+    "puan": 8.0,
+    "resimUrl": "images/film-23.jpg"
+  },
+  {
+    "id": 24,
+    "baslik": "The Smurfs",
+    "kategori": "Animasyon",
+    "yil": 2011,
+    "ozet": "Kötü büyücü Gargamel, Mavi Ay kutlamaları sırasında Şirinler köyüne saldırır ve Şirinleri büyülü bir geçide kovalar. Geçitten geçen mavi yaratıklar kendilerini bir anda 2011 New York'unda bulurlar. Gargamel de peşlerinden gelmiştir ve Şirinler şimdi köylerine dönmenin yollarını arayacaklar.",
+    "puan": 6.4,
+    "resimUrl": "images/film-24.jpg"
+  },
+  {
+    "id": 25,
+    "baslik": "Ice Age",
+    "kategori": "Animasyon",
+    "yil": 2002,
+    "ozet": "Buzul çağı, dünyaya hüküm sürmeye başlamıştır. Uzun tüylü bir mamut, karizmatik ve dişli bir kaplan ve muzır bir rakun, bir şekilde bir araya gelmişlerdir. Bu üç birbirinden farklı türe mensup hayvanın odağında ise tek bir mevzu vardır: Buldukları küçük bebeği, insanlara ulaştırıp o bebeğin hayatını kurtarmak.",
+    "puan": 7.5,
+    "resimUrl": "images/film-25.jpg"
+  }
+
+
+]
