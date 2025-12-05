@@ -17,18 +17,31 @@ header{
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+main {
+    padding: 20px;
+}
 #controls{
     background-color: white;
     color:antiquewhite;
     display: flex; /* kontrol elamnalarını yan yana hizalamak için  ----------------------------*/
+    flex-direction: column; /* Alt öğeleri alt alta sırala */
     flex-wrap: wrap; /*kçük ekranlarda alt alta geçmesini sağlanır  ----------------------------------------------*/
     justify-content: center;
     border-bottom: 1px solid wheat;
-    padding: 25px;
+    align-items: center; /* İçindeki tüm öğeleri yatayda (merkezde) hizalar */
+    padding: 15px 0; /* Üstten ve alttan boşluk bırakır, yanlardan bırakmaz */
+    margin-bottom: 25px; /* Altındaki listeyle olan ayrımı korur */
 }
-#search-input, #category-filter{
+
+#controls-inputs {
+    display: flex;
+    gap: 10px;
+    /* Bu satır, üstteki sekme butonlarından biraz daha ayrılmasını sağlar */
+    margin-top: 15px;
+}
+#search-input, #category-filter, #year-filter{
     padding: 15px;
-    border: 1px solid darkturquoise;
+    border: 1px solid #8B4513;
     border-radius: 10px;
     font-size: 20px;
     min-width:250px;  /*elemanların minimum genişliğini belirler*/
@@ -93,32 +106,67 @@ footer{
     font-size:0.8em;
 }
 
-#tabs{
+
+/* #tabs Kapsayıcı Alanı */
+#tabs {
+    /* Mevcut renklerinize uygun olarak konteyneri daha temiz hale getiriyoruz */
     text-align: center;
-    padding: 10px 15px;
-    background-color: brown;
-    margin-bottom: 15px;
+    padding: 15px 10px;
+    background-color: #F8F8F8; /* Çok açık bir gri arka plan */
+    margin: 0 auto 15px auto; /* Üstte ve altta daha fazla boşluk */
+    border-radius: 12px;
+    max-width: 600px; /* Sekmeleri ortada tutar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
-#tabs button{
-    padding: 15px 25px;
-    margin:0 15px;
-    border: none;
-    border-radius: 10px;
-    background-color: burlywood;
+
+/* Sekme Butonlarının Temel Stili */
+#tabs button {
+    /* Genel buton boyutları */
+    padding: 12px 25px; 
+    margin: 0 5px; /* Butonlar arası daha az boşluk */
+    border: 2px solid transparent; /* Geçiş için şeffaf kenarlık */
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.2s;
+    
+    /* Pasif buton rengi */
+    background-color: #FFF8DC; /* Krem/bej tonu */
+    color: #CD853F; /* Açık kahverengi metin */
+    transition: all 0.3s ease; /* Yumuşak geçişler */
 }
-#tabs button:hover{
-    background-color: coral;
+
+/* Butonların üzerine gelindiğinde (Hover) */
+#tabs button:hover {
+    background-color: #FFE4C4; /* Hafif turuncu/krem hover */
+    color: #8B4513; /* Daha koyu kahverengi metin */
+    transform: translateY(-2px); /* Hafif yukarı kalkma efekti */
 }
-#tabs button.active{
-    background-color: darkgoldenrod;
-    color: white;
+
+/* Aktif (Seçili) Sekme Stili */
+#tabs button.active {
+    /* Aktif seçeneği belirginleştirme */
+    background-color: #DAA520; /* Altın rengi veya koyu sarı */
+    color: white; /* Beyaz metin */
+    box-shadow: 0 4px 10px rgba(218, 165, 32, 0.4); /* Belirgin gölge */
+    border-color: #CD853F; /* Kahverengi kenarlık */
+    transform: none; /* Aktifken kalkma yok */
 }
+
+
+
+
+
+
+
 /*detay ve favori butonları*/
+
 .favorite-btn{
     background-color: gold;
     margin-left: 15px;
+}
+.favorite-btn.active {
+    background: #d32f2f !important;
 }
 .favorite-btn:hover{
     background-color: orange;
@@ -126,6 +174,12 @@ footer{
 /*detay alanı stili*/
 #media-detail.hidden{
     display: none;
+}
+#media-detail {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .detail-card{
     max-width:900px;
@@ -141,4 +195,35 @@ footer{
     border-bottom:2px solid white;
     padding-bottom:20px;
     margin-bottom: 30px;
+}
+.detail-poster {
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+/* MOBİL DÜZEN */
+@media (max-width: 600px) {
+    #controls-inputs {
+        flex-direction: column;
+    }
+
+    #tabs {
+        flex-direction: column;
+    }
+
+    .detail-poster {
+        width: 100%;
+    }
+}
+.poster {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
