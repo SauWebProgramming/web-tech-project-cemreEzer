@@ -18,10 +18,9 @@ Bu proje, ISE-201 Web Teknolojileri dersi kapsamında geliştirilmiş bir **Sing
 - localStorage
 
 ## Canlı Demo
-🔗 [GitHub Pages Linki](https://github.com/SauWebProgramming/web-tech-project-cemreEzer)
+🔗 [GitHub Pages Linki](https://sauwebprogramming.github.io/web-tech-project-cemreEzer/)
 
 ## Kurulum
-1. 1. Projeyi klonlayın: `git clone https://github.com/SauWebProgramming/web-tech-project-cemreEzer.git`
 2. [index.html](file:///C:/Users/Cemre%20Ezer/Desktop/WebTeknolojileriProje/web-tech-project-cemreEzer/index.html) dosyasını tarayıcıda açın
 
 ## Geliştirici
