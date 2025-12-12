@@ -1,36 +1,46 @@
 * {
-    box-sizing: border-box; /* Padding ve border'ın genişliğe dahil olmasını sağlar */
+    box-sizing: border-box;
+    /* Padding ve border'ın genişliğe dahil olmasını sağlar */
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
     color: dimgray;
-   /* line-height: normal;*/
+    /* line-height: normal;*/
 }
-header{
+
+header {
     background-color: bisque;
-    color:floralwhite;
+    color: floralwhite;
     padding: 25px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 main {
     padding: 20px;
 }
-#controls{
+
+#controls {
     background-color: white;
-    color:antiquewhite;
-    display: flex; /* kontrol elamnalarını yan yana hizalamak için  ----------------------------*/
-    flex-direction: column; /* Alt öğeleri alt alta sırala */
-    flex-wrap: wrap; /*kçük ekranlarda alt alta geçmesini sağlanır  ----------------------------------------------*/
+    color: antiquewhite;
+    display: flex;
+    /* kontrol elamnalarını yan yana hizalamak için  ----------------------------*/
+    flex-direction: column;
+    /* Alt öğeleri alt alta sırala */
+    flex-wrap: wrap;
+    /*kçük ekranlarda alt alta geçmesini sağlanır  ----------------------------------------------*/
     justify-content: center;
     border-bottom: 1px solid wheat;
-    align-items: center; /* İçindeki tüm öğeleri yatayda (merkezde) hizalar */
-    padding: 15px 0; /* Üstten ve alttan boşluk bırakır, yanlardan bırakmaz */
-    margin-bottom: 25px; /* Altındaki listeyle olan ayrımı korur */
+    align-items: center;
+    /* İçindeki tüm öğeleri yatayda (merkezde) hizalar */
+    padding: 15px 0;
+    /* Üstten ve alttan boşluk bırakır, yanlardan bırakmaz */
+    margin-bottom: 25px;
+    /* Altındaki listeyle olan ayrımı korur */
 }
 
 #controls-inputs {
@@ -39,71 +49,85 @@ main {
     /* Bu satır, üstteki sekme butonlarından biraz daha ayrılmasını sağlar */
     margin-top: 15px;
 }
-#search-input, #category-filter, #year-filter{
+
+#search-input,
+#category-filter,
+#year-filter {
     padding: 15px;
     border: 1px solid #8B4513;
     border-radius: 10px;
     font-size: 20px;
-    min-width:250px;  /*elemanların minimum genişliğini belirler*/
+    min-width: 250px;
+    /*elemanların minimum genişliğini belirler*/
 }
-#media-list{
-    padding:25px;
-    display:grid;/*grid kullanımı: kartları ızgara şeklinde dizmek için*/
+
+#media-list {
+    padding: 25px;
+    display: grid;
+    /*grid kullanımı: kartları ızgara şeklinde dizmek için*/
     /* Varsayılan olarak 3 sütunlu düzen. 
        minmax ile her sütunun minimum 300px olmasını, geri kalan boşluğun eşit dağıtılmasını sağlarız.*/
-       grid-template-columns: repeat(auto-fit, minmax(300px,1fr));             /*-----------------------------------------*/
-       gap: 30px;    /*kartlar arasındaki boşluk*/
-       max-width: 1200px;    /*içeriği ortalamak için maksimum genişlik*/
-       margin: 20px auto;   /*sayfada ortala*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*-----------------------------------------*/
+    gap: 30px;
+    /*kartlar arasındaki boşluk*/
+    max-width: 1200px;
+    /*içeriği ortalamak için maksimum genişlik*/
+    margin: 20px auto;
+    /*sayfada ortala*/
 }
 
 
 /* Tek bir film kartı stili*/
-.media-card{
+.media-card {
     background-color: azure;
     border: 1px solid wheat;
     border-radius: 8px;
-    padding:25px;
+    padding: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;  /*fare üzerine gelince efekt eklemek için*/
+    transition: transform 0.2s;
+    /*fare üzerine gelince efekt eklemek için*/
 }
 
-.media-card:hover{
-    transform: translateY(-5px);   /*kartın hafifçe yukarı kalkması*/
+.media-card:hover {
+    transform: translateY(-5px);
+    /*kartın hafifçe yukarı kalkması*/
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.media-card h2{
+.media-card h2 {
     font-size: 1.5em;
     margin-bottom: 15px;
     color: midnightblue;
 }
+
 .media-card p {
     margin-bottom: 10px;
     font-size: 0.9em;
 }
 
-.media-card button{
+.media-card button {
     background-color: darkgrey;
-    color:white;
-    border:none;
-    padding:9px 17px;
+    color: white;
+    border: none;
+    padding: 9px 17px;
     margin-top: 12px;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
-.media-card button:hover{
+
+.media-card button:hover {
     background-color: aqua;
 }
 
-footer{
+footer {
     text-align: center;
-    padding:15px;
+    padding: 15px;
     background-color: burlywood;
-    color:aliceblue;
+    color: aliceblue;
     margin-top: 30px;
-    font-size:0.8em;
+    font-size: 0.8em;
 }
 
 
@@ -112,45 +136,61 @@ footer{
     /* Mevcut renklerinize uygun olarak konteyneri daha temiz hale getiriyoruz */
     text-align: center;
     padding: 15px 10px;
-    background-color: #F8F8F8; /* Çok açık bir gri arka plan */
-    margin: 0 auto 15px auto; /* Üstte ve altta daha fazla boşluk */
+    background-color: #F8F8F8;
+    /* Çok açık bir gri arka plan */
+    margin: 0 auto 15px auto;
+    /* Üstte ve altta daha fazla boşluk */
     border-radius: 12px;
-    max-width: 600px; /* Sekmeleri ortada tutar */
+    max-width: 600px;
+    /* Sekmeleri ortada tutar */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 /* Sekme Butonlarının Temel Stili */
 #tabs button {
     /* Genel buton boyutları */
-    padding: 12px 25px; 
-    margin: 0 5px; /* Butonlar arası daha az boşluk */
-    border: 2px solid transparent; /* Geçiş için şeffaf kenarlık */
+    padding: 12px 25px;
+    margin: 0 5px;
+    /* Butonlar arası daha az boşluk */
+    border: 2px solid transparent;
+    /* Geçiş için şeffaf kenarlık */
     border-radius: 8px;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    
+
     /* Pasif buton rengi */
-    background-color: #FFF8DC; /* Krem/bej tonu */
-    color: #CD853F; /* Açık kahverengi metin */
-    transition: all 0.3s ease; /* Yumuşak geçişler */
+    background-color: #FFF8DC;
+    /* Krem/bej tonu */
+    color: #CD853F;
+    /* Açık kahverengi metin */
+    transition: all 0.3s ease;
+    /* Yumuşak geçişler */
 }
 
 /* Butonların üzerine gelindiğinde (Hover) */
 #tabs button:hover {
-    background-color: #FFE4C4; /* Hafif turuncu/krem hover */
-    color: #8B4513; /* Daha koyu kahverengi metin */
-    transform: translateY(-2px); /* Hafif yukarı kalkma efekti */
+    background-color: #FFE4C4;
+    /* Hafif turuncu/krem hover */
+    color: #8B4513;
+    /* Daha koyu kahverengi metin */
+    transform: translateY(-2px);
+    /* Hafif yukarı kalkma efekti */
 }
 
 /* Aktif (Seçili) Sekme Stili */
 #tabs button.active {
     /* Aktif seçeneği belirginleştirme */
-    background-color: #DAA520; /* Altın rengi veya koyu sarı */
-    color: white; /* Beyaz metin */
-    box-shadow: 0 4px 10px rgba(218, 165, 32, 0.4); /* Belirgin gölge */
-    border-color: #CD853F; /* Kahverengi kenarlık */
-    transform: none; /* Aktifken kalkma yok */
+    background-color: #DAA520;
+    /* Altın rengi veya koyu sarı */
+    color: white;
+    /* Beyaz metin */
+    box-shadow: 0 4px 10px rgba(218, 165, 32, 0.4);
+    /* Belirgin gölge */
+    border-color: #CD853F;
+    /* Kahverengi kenarlık */
+    transform: none;
+    /* Aktifken kalkma yok */
 }
 
 
@@ -161,69 +201,168 @@ footer{
 
 /*detay ve favori butonları*/
 
-.favorite-btn{
+.favorite-btn {
     background-color: gold;
     margin-left: 15px;
 }
+
 .favorite-btn.active {
     background: #d32f2f !important;
 }
-.favorite-btn:hover{
+
+.favorite-btn:hover {
     background-color: orange;
 }
+
 /*detay alanı stili*/
-#media-detail.hidden{
+#media-detail.hidden {
     display: none;
 }
+
 #media-detail {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-.detail-card{
-    max-width:900px;
-    margin:30px auto;
+
+.detail-card {
+    max-width: 900px;
+    margin: 30px auto;
     padding: 40px;
     background-color: white;
-    border:1px solid rosybrown;
+    border: 1px solid rosybrown;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.detail-card h2{
-    color:chocolate;
-    border-bottom:2px solid white;
-    padding-bottom:20px;
+
+.detail-card h2 {
+    color: chocolate;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
     margin-bottom: 30px;
 }
+
 .detail-poster {
     width: 250px;
     border-radius: 10px;
     margin-bottom: 15px;
     display: block;
 }
+
 .hidden {
     display: none;
 }
 
 /* MOBİL DÜZEN */
-@media (max-width: 600px) {
-    #controls-inputs {
-        flex-direction: column;
+/* Tablet Düzeni (Medium Devices) */
+@media (max-width: 1024px) {
+    #media-list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+}
+
+/* Mobil Düzen (Small Devices) */
+@media (max-width: 768px) {
+
+    /* Genel Header Düzeni */
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
     }
 
-    #tabs {
+    #hamburger-btn {
+        display: block !important;
+        /* Mobilde göster */
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        color: floralwhite;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* Menü başlangıçta gizli olsun */
+    #controls {
+        display: none;
         flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* JS ile 'show' class'ı eklenince görünür olsun */
+    #controls.show {
+        display: flex;
+        animation: slideDown 0.3s ease-out;
+    }
+
+    #state-tabs,
+    #controls-inputs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #tabs button,
+    #controls-inputs input,
+    #controls-inputs select {
+        width: 100%;
+        margin: 5px 0;
     }
 
     .detail-poster {
         width: 100%;
+        height: auto;
     }
 }
+
+/* Hamburger Butonu Varsayılan Olarak Gizli */
+#hamburger-btn {
+    display: none;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .poster {
     width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6e6;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.empty-favorites {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff3e0;
+    border-radius: 10px;
+    margin: 20px;
 }

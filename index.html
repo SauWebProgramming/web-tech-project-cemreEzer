@@ -6,6 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Film Kütüphanesi projesi ile filmleri listeleyin, arama yapın ve favorilerinize ekleyin.">
     <title>Film Web Sitem</title>
 
     <link rel="stylesheet" href="style.css">
@@ -20,6 +22,7 @@
 
     <header>
         <h1>Film Kütüphanesi</h1>
+        <button id="hamburger-btn" aria-label="Menüyü Aç/Kapat">&#9776;</button>
     </header>
 
 
@@ -29,26 +32,26 @@
             <section id="tabs">
                 <button id="show-all-btn" class="active">Tüm Filmler</button>
                 <button id="show-favorites-btn">Favorilerim</button>
-            </section>   
+            </section>
 
-            <div id="controls-inputs"> 
-        
-                 <input type="text" id="search-input" placeholder="Film adı ile arama yapın...">
-                 <select id="category-filter">
-                     <option value="all">Tüm Kategoriler</option>
-                 </select>
-                 <select id="year-filter">
-                     <option value="all">Tüm Yıllar</option>
-</select>
+            <div id="controls-inputs">
 
-            </div> 
+                <input type="text" id="search-input" placeholder="Film adı ile arama yapın...">
+                <select id="category-filter">
+                    <option value="all">Tüm Kategoriler</option>
+                </select>
+                <select id="year-filter">
+                    <option value="all">Tüm Yıllar</option>
+                </select>
+
+            </div>
         </nav>
 
-         <!-- detay alanı (başlangıçta gizli) -->
-  <section id="media-detail" class="hidden"></section>
+        <!-- detay alanı (başlangıçta gizli) -->
+        <section id="media-detail" class="hidden"></section>
 
-    <!-- burada film kartları render edilecek (tek defa tanımlanmalı) -->
-  <section id="media-list"></section>
+        <!-- burada film kartları render edilecek (tek defa tanımlanmalı) -->
+        <section id="media-list"></section>
 
 
 
